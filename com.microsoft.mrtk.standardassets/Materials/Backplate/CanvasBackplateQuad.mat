@@ -9,8 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: CanvasBackplateQuad
   m_Shader: {fileID: 4800000, guid: df5380aa6ab293c4fafbb942ed5da93f, type: 3}
-  m_ShaderKeywords: _ADDITIVE_ON _EDGE_SMOOTHING_AUTOMATIC _ROUND_CORNERS _SPECULAR_HIGHLIGHTS
-    _UI_CLIP_RECT_ROUNDED _USE_WORLD_SCALE _VERTEX_COLORS
+  m_ShaderKeywords: _ADDITIVE_ON _EDGE_SMOOTHING_AUTOMATIC _EMISSION _HOVER_LIGHT
+    _ROUND_CORNERS _SPECULAR_HIGHLIGHTS _UI_CLIP_RECT_ROUNDED _VERTEX_COLORS
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -67,7 +67,7 @@ Material:
     - _EdgeSmoothingMode: 1
     - _EdgeSmoothingValue: 0.25
     - _EnableChannelMap: 0
-    - _EnableEmission: 0
+    - _EnableEmission: 1
     - _EnableHoverColorOverride: 0
     - _EnableLocalSpaceTriplanarMapping: 0
     - _EnableNormalMap: 0
@@ -86,7 +86,7 @@ Material:
     - _FluentLightIntensity: 1
     - _GradientAngle: 180
     - _GradientMode: 0
-    - _HoverLight: 0
+    - _HoverLight: 1
     - _IndependentCorners: 0
     - _InnerGlow: 0
     - _InnerGlowPower: 4
@@ -115,7 +115,7 @@ Material:
     - _RimLight: 0
     - _RimPower: 0.25
     - _RoundCornerMargin: 0.02
-    - _RoundCornerRadius: 9
+    - _RoundCornerRadius: 0.092
     - _RoundCorners: 1
     - _RoundCornersHideInterior: 0
     - _Smoothness: 0.5
@@ -131,7 +131,7 @@ Material:
     - _StencilReference: 0
     - _StencilWriteMask: 255
     - _TriplanarMappingBlendSharpness: 4
-    - _UseWorldScale: 1
+    - _UseWorldScale: 0
     - _VertexColors: 1
     - _VertexExtrusion: 0
     - _VertexExtrusionSmoothNormals: 0
@@ -149,7 +149,7 @@ Material:
     - _ClippingBorderColor: {r: 1, g: 0.2, b: 0, a: 1}
     - _Color: {r: 0.6509434, g: 0.6509434, b: 0.6509434, a: 1}
     - _Color_: {r: 0.48160002, g: 0.67080003, b: 0.86, a: 1}
-    - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissiveColor: {r: 0.011764706, g: 0.011764706, b: 0.011764706, a: 1}
     - _EnvironmentColorX: {r: 1, g: 0, b: 0, a: 1}
     - _EnvironmentColorY: {r: 0, g: 1, b: 0, a: 1}
     - _EnvironmentColorZ: {r: 0, g: 0, b: 1, a: 1}
